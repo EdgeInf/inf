@@ -1,13 +1,10 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
---=Script By Teedie=--
 
---=Start Settings=--
-LogPlayerJoins = true --Set this to false if you don't want the script to log joins.
+LogPlayerJoins = false --Set this to false if you don't want the script to log joins.
 LogPlayerChat = true --Set this to false if you don't want the script to log chat.
 LogPlayerLeaves = false --Set this to false if you don't want the script to log leaves.
 DebugMode = false --All this does is enable the spammy printing for the script, I would recommend keeping it disabled.
 Webhook = "https://discord.com/api/webhooks/1011057351954018305/vFx850B1aUPoQNfVZn4oTAVNsugtP4jhFbjZk3-7dfDB7GGbfO9PYzBw272Lp0561hr4" --Put your webhook here.
---End Settings=--
 
 if Webhook == "" then error("Please enter your webhook.") end
 if game.CoreGui:FindFirstChild("logginggge") then error("Logging already loaded!") end
