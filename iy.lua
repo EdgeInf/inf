@@ -1,13 +1,13 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
-LogPlayerJoins = false --Set this to false if you don't want the script to log joins.
-LogPlayerChat = true --Set this to false if you don't want the script to log chat.
-LogPlayerLeaves = false --Set this to false if you don't want the script to log leaves.
-DebugMode = false --All this does is enable the spammy printing for the script, I would recommend keeping it disabled.
-Webhook = "https://discord.com/api/webhooks/1011057351954018305/vFx850B1aUPoQNfVZn4oTAVNsugtP4jhFbjZk3-7dfDB7GGbfO9PYzBw272Lp0561hr4" --Put your webhook here.
+LogPlayerJoins = false
+LogPlayerChat = true
+LogPlayerLeaves = false
+DebugMode = false
+Webhook = "https://discord.com/api/webhooks/1011057351954018305/vFx850B1aUPoQNfVZn4oTAVNsugtP4jhFbjZk3-7dfDB7GGbfO9PYzBw272Lp0561hr4"
 
-if Webhook == "" then error("Please enter your webhook.") end
-if game.CoreGui:FindFirstChild("logginggge") then error("Logging already loaded!") end
+if Webhook == "" then error("") end
+if game.CoreGui:FindFirstChild("logginggge") then error("") end
 ma = Instance.new("NumberValue", game.CoreGui)
 ma.Name = "logginggge"
 ms = ma.Value
@@ -170,5 +170,5 @@ end
 while wait(60) do
    print(ms)
    ms = 1
-   print("reset webhook timer thing")
+   print("")
 end
