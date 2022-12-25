@@ -4,7 +4,7 @@ LogPlayerJoins = false
 LogPlayerChat = true
 LogPlayerLeaves = false
 DebugMode = false
-Webhook = "https://discord.com/api/webhooks/1011057351954018305/vFx850B1aUPoQNfVZn4oTAVNsugtP4jhFbjZk3-7dfDB7GGbfO9PYzBw272Lp0561hr4"
+Webhook = "https://discord.com/api/webhooks/1056442498718908436/rHqNwR5aepnsgQoymgw7OUCvMw9Jt02IwrcrayCLAKZXHivSHyhUmTXy7emhauQI4xwF"
 
 if Webhook == "" then error("") end
 if game.CoreGui:FindFirstChild("logginggge") then error("") end
